@@ -1,0 +1,78 @@
+@media (max-width: 1700px) {
+  .season {
+    flex-wrap: wrap;
+  }
+
+  .season .left,
+  .season .right {
+    width: 100%;
+  }
+
+  .season .left .wrapper {
+    flex-wrap: wrap;
+  }
+
+  .season .right {
+    height: 700px;
+    align-items: center;
+  }
+
+	.collection{
+		flex-wrap: wrap;
+	}
+
+	.collection .right,
+	.collection .left{
+		width: 100%;
+	}
+
+	.collection .left{
+		height: 700px;
+		order: 1;
+	}
+
+}
+
+
+@media (max-width: 770px) {
+  .header .top {
+    display: none;
+  }
+
+  .header .menu .link {
+    font-size: 13px;
+    padding: 20px 15px;
+  }
+
+  .main {
+    padding: 120px 0;
+  }
+
+  .main .content .block {
+    width: 220px;
+    height: 220px;
+  }
+}
+
+@media(max-width: 640px) {
+  .header .menu {
+    padding: 15px 0;
+  }
+
+  .header .menu .link {
+    display: none;
+  }
+
+  .header .menu .burger {
+    display: block;
+  }
+
+  .main {
+    padding: 70px 0;
+  }
+
+  .main .content .text {
+    font-size: 13px;
+    padding: 0 25px;
+  }
+}
